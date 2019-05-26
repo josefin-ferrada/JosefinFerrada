@@ -1,0 +1,37 @@
+.navbar{
+	padding: .30rem 10rem !important;	
+}
+.dark{
+	background-color:black !important;
+	
+	background-size: 50px 50px;
+}
+body{
+	font-family: 'Lato', sans-serif !important;
+	font-size: 20px !important;
+	
+}
+h1{
+	color:white;
+	font-family: 'Lato', sans-serif !important;
+	text-align: center;
+	font-weight: 100 !important;
+}
+.centerImageHeader{
+	justify-content: center;
+    
+    display: grid;
+}
+.titlesblack{
+	color: black;
+	font-weight: 400 !important;
+	padding: 2%;
+}
+.titleswhite{
+	color: white;
+	font-weight: 400 !important;
+	padding: 2%;
+}
+.darkSection{
+	background-color: black !important;
+}
