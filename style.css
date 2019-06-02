@@ -1,9 +1,16 @@
-*{
-	margin: 0;
-	padding: 0;
-}
+
+html {
+	scroll-behavior: smooth;
+  }
 .navbar{
-	padding: .30rem 10rem !important;	
+	padding: .30rem 10rem !important;
+	 right: 0;
+	left: 0;
+	 z-index: 1030;
+	 position: fixed !important;
+}
+.row{
+	margin:0 !important;
 }
 .dark{
 	background-color:black !important;
@@ -29,12 +36,13 @@ h1{
 .titlesblack{
 	color: black;
 	font-weight: 400 !important;
-	padding: 2%;
+	
+	padding-top: 10%
 }
 .titleswhite{
 	color: white;
 	font-weight: 400 !important;
-	padding: 2%;
+	padding-top: 10%
 }
 .darkSection{
 	background-color: black !important;
