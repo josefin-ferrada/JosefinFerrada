@@ -30,7 +30,7 @@ h1{
 }
 .centerImageHeader{
 	justify-content: center;
-    
+	font-family: 'Lato', sans-serif !important;
     display: grid;
 }
 .titlesblack{
@@ -46,4 +46,37 @@ h1{
 }
 .darkSection{
 	background-color: black !important;
+	font-family: 'Lato', sans-serif !important;
+}
+#about{
+	font-family: 'Lato', sans-serif !important;
+}
+#Projects{
+	font-family: 'Lato', sans-serif !important;
+}
+
+
+@media (max-width: 600px) {
+  .minim {
+		max-width: 100px;
+		min-width: 200px;
+		margin-left: 37px;
+	}
+	h1{
+		font-size: 22px !important;
+	}
+	.section1{
+		margin-top: 100px;
+		
+	}
+	.navbar{
+		padding: 10px !important;
+
+	}
+	.footer{
+		max-width: 200px;
+		min-width: 80px;
+		max-height: 200px;
+	}
+	
 }
