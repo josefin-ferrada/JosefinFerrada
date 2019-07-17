@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Josefin Ferrada Portafolio</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap" rel="stylesheet">
@@ -18,13 +19,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#About">Sobre Mi<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ">
             <a class="nav-link" href="#Skills">Habilidades</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ">
             <a class="nav-link" href="#Projects">Proyectos</a>
           </li>
           <li class="nav-item">
@@ -42,18 +43,18 @@
       </div>
     </section>
     <section id="About">
-      <h1 class="titlesblack ">SOBRE MI</h1>
-      <div class="centerImageHeader" style="padding: 9%">
+      <h2 class="titlesblack ">SOBRE MI</h2>
+      <div class="centerImageHeader" style="padding: 8%">
         <div class="row">
           <div class="col-sm-4">
-              <img  src="./img/png.png"  class="vert-move" style="max-height: 400px; max-width: 400px; margin-top: -70px;">
+              <img  src="./img/png.png"  class="vert-move" >
           </div>
           <div class="col-sm-8" >
-            Soy <span style="background-color: #FFFF00">Josefin Ferrada</span>, coder egresada de Laboratoria,
-             autodidacta y muy organizada, siempre aprendiendo cosas nuevas por mi naturaleza curiosa. 
-             Me he desenvuelto en el área de la tecnología desde antes de involucrarme en el desarrollo
-              principalmente trabajando en modalidad freelancer creando páginas web lo que me llevó
-              finalmente a interesarme en el área TI y desarrollo web, mundo en el cual quiero
+            Soy <mark>Josefin Ferrada</mark>, desarrolladora <mark>Front-End</mark> egresada de Laboratoria,
+             autodidacta y muy <mark>organizada </mark>; siempre estoy aprendiendo cosas nuevas debido a mi naturaleza curiosa. 
+             Me he desenvuelto en el área de la tecnología mucho antes de empezar en el desarrollo,
+              principalmente, trabajando en modalidad freelancer creando <mark>sitios web</mark>; por esta razón comenzó
+              a interesarme aún más el <mark>área TI</mark>, en especial, el desarrollo web; mundo en el cual quiero
                iniciar una carrera. Fanática de las series, la música y el aire libre.
 
 
@@ -62,13 +63,13 @@
       </div>
     </section>
     <section class="darkSection" id="Skills">
-        <h1 class="titleswhite">HABILIDADES</h1>
-        <div  style="padding: 9%" >
+        <h2 class="titleswhite">HABILIDADES</h2>
+        <div  style="padding: 8%" >
             <div class="container">
                 <div class="row">
                   <div class="col centerIcons">
                     <img src="./img/js.png" alt="" class="icons">
-                    <p>Javascript</p>
+                    <p>JavaScript</p>
                   </div>
                   <div class="col centerIcons">
                       <img src="./img/react.png" alt="" class="icons">
@@ -86,11 +87,11 @@
                 <div class="row">
                     <div class="col centerIcons">
                         <img src="./img/html5.png" alt="" class="icons" >
-                        <p>Html 5</p>
+                        <p>HTML 5</p>
                     </div>
                     <div class="col centerIcons">
                         <img src="./img/css.png" alt="" class="icons">
-                        <p>Css</p>
+                        <p>CSS</p>
                     </div>
                     <div class="col centerIcons">
                         <img src="./img/boot.png" alt="" class="icons">
@@ -104,51 +105,73 @@
             </div>
         </div>
     </section>
+  
+        
     <section id="Projects">
-        <h1 class="titlesblack">PROYECTOS</h1>
-        <div class="row centerImageHeader" style="padding: 9%">
-            <div class="col"><div class="card" style="width: 18rem; height: 520px">
-                <img src="./img/depoke.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">DexiPoke</h5>
-                  <p class="card-text">Aplicación de pokemon API, puedes buscar a tu pokemon favorito con distintos filtros y datos curiosos</p>
-                  <a href="https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html"  target="_blank" class="btn btn-outline-dark">Ir a la aplicación</a>
+        <h2 class="titlesblack">PROYECTOS</h2>
+        
+        <div class="row centerImageHeader card-deck" style="padding: 4%">
+            <div class="card-deck">
+                <div class="card" style="max-width: 16rem; height: 23rem">
+                    <img src="./img/dexi.png" class="card-img-top"   alt="...">
+                    <div class="overlay"></div>
+                  <div class="card-body">
+                    <h5 class="card-title">DexiPoke</h5>
+                    <p class="card-text">Busca a tu pokemon favorito de la región Kanto</p>
+                    <button class="btn btn-warning" >Código</button>
+                    <button class="btn btn-warning" >Demo</button>
+                    
+                  </div>
                 </div>
-              </div></div>
-            <div class="col"><div class="card" style="width: 18rem; height: 520px">
-                <img src="./img/filmaton.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Film at On</h5>
-                  <p class="card-text"> Aplicación para buscar películas, datos curiosos, resumenes y directores. Proyecto realizado en periodo de 3 días, consumiendo una API de peliculas</p>
-                  <a href="https://josefin-ferrada.github.io/project-hackaton/src/index.html#!"  target="_blank" class="btn btn-outline-dark">Ir a la aplicación</a>
+                <div class="card" style="max-width: 16rem;  height: 23rem">
+                    <img src="./img/filmaton.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Filmaton</h5>
+                    <p class="card-text">Busca tus peliculas favoritas, géneros y más</p>
+                    <button class="btn btn-warning" >Código</button>
+                    <button class="btn btn-warning" >Demo</button>
+                    
+                  </div>
                 </div>
-              </div></div>
-            <div class="col"><div class="card" style="width: 18rem; height: 520px">
-                <img src="./img/lobby.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Lobbyster</h5>
-                  <p class="card-text">Aplicación para registro de visitantes en algún establecimiento</p>
-                  <a href="https://hackaton-registro-visitantes.firebaseapp.com/" target="_blank"  class="btn btn-outline-dark">Ir a la aplicación</a>
+                <div class="card" style="max-width: 16rem;  height: 23rem">
+                    <img src="./img/allergy.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Allergy Bites</h5>
+                    <p class="card-text">Registra los visitanes de tu edificio o establecimento</p>
+                    <button class="btn btn-warning" >Código</button>
+                    <button class="btn btn-warning" >Demo</button>
+                   
+                  </div>
                 </div>
-              </div></div>
-          </div>
-      </section>
+                 <div class="card" style="max-width: 16rem;  height: 23rem">
+                    <img src="./img/allergy.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Allergy Bites</h5>
+                    <p class="card-text">Registra los visitanes de tu edificio o establecimento</p>
+                    <button class="btn btn-warning" >Código</button>
+                    <button class="btn btn-warning" >Demo</button>
+                   
+                  </div>
+                </div>
+              </div>
+            
+      </section> 
       <section class="darkSection" id="Contact" >
-          <h1 class="titleswhite">CONTACTO</h1>
+          <h2 class="titleswhite">CONTACTO</h2>
           <div class="container"  style="padding: 6%">
             <div class="row">
-              <div class="col">
-                <img class="footer" src="./img/josefin.png" style="height: 300px; width: 300px;" >
+              <div class="col" style="border-right-style: solid; color:white">
+                <img class="footer " src="./img/josefin.png" style="height: 300px; width: 300px;" >
                 
               </div>
-              <div class="col">
-                <img src="./img/linkedin-logo.png" style="height: 70px; width:70px"  >
-                <img src="./img/github.png"  style="height: 70px; width:70px"> 
+              <div class="col contact">
+                
+                <a href="https://www.linkedin.com/in/josefin-ferrada/"> <img src="./img/linkedin-logo.png" class= "contactIcons" ></a>
+                <a href="https://github.com/josefin-ferrada"><img src="./img/github.png" class= "contactIcons" ></a>
+                <a  href="mailto:ferradajosefin@gmai.com"><img src="./img/mail.png" class= "contactIcons" > </a>
               </div>
             </div>
-        <div class="centerImageHeader" style="padding: 4%">
-          
-        </div>
+        
 
       </section>
       
